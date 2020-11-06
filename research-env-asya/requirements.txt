@@ -1,0 +1,26 @@
+jupyterlab==1.2.15
+opencv-python
+Pillow
+matplotlib
+pandas
+scikit_image
+scikit-learn
+boto3
+awscli
+ipywidgets
+jupyterlab-nvdashboard
+ipyexperiments
+cmake
+dlib
+torch==1.6.0
+torchvision==0.7.0
+tensorflow
+keras
+fastai
+PyYAML
+tqdm
+wandb
+
+
+--extra-index-url https://admin:%25YlCvk_3gcwLn5iid1j1@nexus.meero.dev/repository/meero-pypy/simple
+meero-rdtools==0.4.0

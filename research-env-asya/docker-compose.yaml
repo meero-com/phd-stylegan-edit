@@ -1,0 +1,18 @@
+version: "2.3"
+
+services:
+  jupyterlab:
+    image: research-env-asya:cuda-10.2
+    runtime: nvidia
+    container_name: research-env-asya
+    restart: always
+    build: .
+    shm_size: '8gb'
+
+    command: jupyter-lab --ip=0.0.0.0 --allow-root --no-browser
+    ports:
+      - 6711:8888
+    working_dir: /home
+    volumes:
+      - /home/asya/work_git/recherche/StyleGAN/:/home
+      - /mnt/datadrive/asya/:/home/datadrive/asya
