@@ -5,6 +5,8 @@ cd research-env-asya
 sudo docker-compose up --build --detach
 
 ## Usage
+* Run docker container
+* Go to install_requirements notebook and install the requirements inside container
 * Go into notebooks
 * Play with stylegan with stylegan-play
 * Play with inversions with inversions-play
